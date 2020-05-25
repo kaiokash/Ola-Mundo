@@ -1,0 +1,272 @@
+
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 13px;
+letter-spacing: 0px;
+word-spacing: 0px;
+color: #FFFFFF;
+font-weight: 700;
+
+font-style: oblique;
+font-variant: small-caps;
+text-transform: none;
+}
+
+footer p{
+  float: right;
+  padding-top: 25px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  background-color: #cccccc
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 0px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+iframe{
+width: 100%;
+height: 100%;
+border: none;
+
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens 
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.clearfix:before, .clearfix:after {
+content: " ";
+display:  table;
+
+}
+
+.clearfix:after{
+
+  clear:both;
+}
+
+.clearfix{
+  *zoom:1;
+}
+
+img, picture, video, embed{
+  max-width: 100%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+  /* Style the header 
+
+
+  .header {
+
+    background-color: #666;
+    width: 100%;
+    height: 48px;
+    margin-top: 3.6em;
+    margin-bottom: 3.6em;
+    
+    color: white;
+  }
+
+  .logo {
+    width: 2.994680851064%; /*234px /1128*/
+    /*
+    float: left;
+  }
+
+  .menu {
+    width: 2.994680851064%; /*840px /1128*//*
+    float: right;
+  }
+
+  .banner{
+    background: url('/site-exemplo/fundo.png') ;
+    height: 450px;
+    margin-bottom: 4.8em;
+    position: relative;
+  }
+
+
+  .caixa{
+    width: 50.553191489362%; /* 264px / 1128px *//*
+    padding: 2.4em 4em 2.4em 4em;
+    position: absolute;
+    top: 48px;
+    background: rgba(0,0,0,0.6);
+color: blanchedalmond;
+
+  }
+
+  .coluna {
+    
+    width: 20.404255319149%; /* 264px / 1128px */
+    /*margin-right: 2.127659574468%; *//* 24 / 1128px
+ float: left;
+
+  }
+
+  .coluna:last-child {
+    margin-right: 0;
+ }
+
+  
+
+  /*
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }*/
+  
+  /* Style the footer */
+
+
+/*
+  .footer {
+    width: 100%;
+    margin-top: 2.4em;
+    margin-bottom: 2.4em;
+    float: left;
+    clear: both;
+    background-color: #000000;
+    color: white;
+ }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
+  /*
+  @media screen and (max-width: 1128px) {
+    .container {
+       padding: 0 2.4em 0 2.4em;
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+     
+      .banner{
+
+        width: 90%;
+      }
+      .caixa {
+         width: 65%;
+      }
+
+      .coluna {
+        width: 48%;
+        margin-bottom: 2.4em;
+        margin-right: 2%;
+     }
+     
+     .coluna:nth-child(even) {
+        margin-right: 0;
+     }
+     .logo {
+      margin-top: 1.2em;
+   }
+
+      }
+
+      @media screen and (max-width: 640px) {
+        .menu {
+           width: 100%;
+        }
+        
+        .menu ul {
+           float: left;
+           font-size: 0.8em;
+        }
+        
+        .menu li:first-child {
+           margin-left: 0;
+        }
+        }
+        */
