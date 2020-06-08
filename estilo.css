@@ -59,6 +59,7 @@ footer {
   background-color: #777;
   padding: 10px;
   margin: 0;
+ 
   text-align: center;
   color: white;
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -71,6 +72,11 @@ footer {
   font-variant: small-caps;
   text-transform: none;
 }
+
+
+
+
+
 
 footer p {
   float: right;
@@ -131,5 +137,10 @@ background-color: rgb(145, 145, 145);
   article {
     padding: 0%;
     height: 270px;
+  }
+
+  footer img{
+    
+    margin-left: 25px;
   }
 }
