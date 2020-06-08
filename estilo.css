@@ -128,7 +128,8 @@ iframe {
   li a:hover {
 background-color: rgb(145, 145, 145);
   }
-  li {
-    
+  article {
+    padding: 0%;
+    height: 270px;
   }
 }
